@@ -1,0 +1,88 @@
+body
+{
+    background: linear-gradient(orange,red);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    padding:0 ;
+    margin: 0;
+}
+
+#tot-container{
+    height: 60vh;
+    width: 50vw;
+   
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    box-shadow: 4px 4px 20px black;
+}
+
+h1{
+    font-size: 50px;
+    color:green;
+}
+
+.input{
+    width: 100%;
+   text-align: center;
+}
+
+.input input{
+    padding: 10px;
+    width: 50%;
+}
+
+.todos{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+     margin-top: 30px;
+   border: solid 2px black;
+   overflow: hidden;
+   overflow-y: scroll;
+   margin-bottom: 4px;
+}
+
+.input input:focus{
+    outline-color: green;
+}
+
+.txt{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.todos p{
+    color: black;
+    margin: 5px;
+}
+
+.todos button{
+    margin: 7px;
+    width: 20%;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#submit{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    margin: 5px;
+    border: none;
+}
